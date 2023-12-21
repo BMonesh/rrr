@@ -167,3 +167,207 @@
     left: 689px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 768px) {
+    .desktop {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .desktop .div {
+        background-color: #ffffff;
+        width: 1440px;
+        height: 1024px;
+        position: relative;
+    }
+    
+    .desktop .overlap {
+        position: absolute;
+        width: 1440px;
+        height: 926px;
+        top: 98px;
+        left: 0;
+    }
+    
+    .desktop .rectangle {
+        position: absolute;
+        width: 1439px;
+        height: 708px;
+        top: 218px;
+        left: 0;
+        background-color: #304d30;
+    }
+    
+    .desktop .frame {
+        position: absolute;
+        width: 750px;
+        height: 471px;
+        top: 455px;
+        left: 37px;
+    }
+    
+    .desktop .rectangle-2 {
+        position: absolute;
+        width: 1440px;
+        height: 218px;
+        top: 0;
+        left: 0;
+        background-color: #b6c4b6;
+    }
+    
+    .desktop .header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1440px;
+        height: 485px;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 943px 0px;
+        position: absolute;
+        top: 2px;
+        left: 0;
+        background-color: transparent;
+    }
+    
+    .desktop .healthy-food-amico {
+        position: relative;
+        width: 227px;
+        height: 227px;
+    }
+    
+    .desktop .eating-korean-food {
+        position: relative;
+        width: 267px;
+        height: 267px;
+    }
+    
+    .desktop .group {
+        position: absolute;
+        width: 613px;
+        height: 188px;
+        top: 0;
+        left: 392px;
+    }
+    
+    .desktop .overlap-group-wrapper {
+        position: absolute;
+        width: 615px;
+        height: 67px;
+        top: 121px;
+        left: 0;
+    }
+    
+    .desktop .overlap-group {
+        position: relative;
+        width: 613px;
+        height: 67px;
+        background-color: #eef0e5;
+        border-radius: 10px;
+    }
+    
+    .desktop .text-wrapper {
+        position: absolute;
+        top: 22px;
+        left: 22px;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+    
+    .desktop .group-2 {
+        position: absolute;
+        width: 381px;
+        height: 80px;
+        top: 0;
+        left: 118px;
+    }
+    
+    .desktop .text-wrapper-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+    
+    .desktop .p {
+        position: absolute;
+        top: 56px;
+        left: 41px;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+    
+    .desktop .group-3 {
+        position: absolute;
+        width: 878px;
+        height: 667px;
+        top: 235px;
+        left: 535px;
+    }
+    
+    .desktop .rectangle-3 {
+        position: absolute;
+        width: 876px;
+        height: 627px;
+        top: 40px;
+        left: 0;
+        background-color: #eef0e5;
+        border-radius: 10px;
+    }
+    
+    .desktop .text-wrapper-3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+    
+    .desktop .navigation {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .desktop .rectangle-4 {
+        position: relative;
+        width: 1440px;
+        height: 97px;
+        background-color: #ffffff;
+    }
+    
+    .desktop .image {
+        position: absolute;
+        width: 62px;
+        height: 67px;
+        top: 14px;
+        left: 689px;
+        object-fit: cover;
+    }
+}
